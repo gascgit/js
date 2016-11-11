@@ -38,7 +38,3 @@
 
 })();
 $("h2").append(counter.increment);
-
-for (var i = 0, j = 9; i <= j; i++, j--) {
-  $("h2").append("a[" + i + "][" + j + "]= " + a[i][j]);
-}
